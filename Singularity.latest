@@ -1,0 +1,13 @@
+Bootstrap: docker
+From: remuslazar/gnuplot:latest
+
+%help
+	"GnuPlot image"
+
+%labels
+	MAINTAINER "Guillermo Piccoli <grpiccoli@gmail.com>"
+	SPECIES "Bluff Oyster"
+	PROJECT "Flat Oyster Genomics"
+
+%post
+    apk --no-cache add bash
